@@ -109,10 +109,11 @@ body {
 /* ===== MAIN - STUDIO ===== */
 
 .slider-section {
+    margin: auto;
     background-color: #2f303a;
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1600px;
     background-position: center;
     text-align: center;
 }
