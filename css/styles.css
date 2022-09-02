@@ -110,6 +110,10 @@ body {
 
 .slider-section {
     background-color: #2f303a;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     text-align: center;
 }
 
