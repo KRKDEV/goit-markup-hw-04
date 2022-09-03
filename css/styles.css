@@ -111,7 +111,12 @@ body {
 .slider-section {
     margin: auto;
     background-color: #2f303a;
-    background-image: url("../images/background.jpg");
+    background-image: linear-gradient(
+            0deg,
+            rgba(47, 48, 58, 0.4) 0%,
+            rgba(47, 48, 58, 0.4) 100%
+        ),
+        url("../images/background.jpg");
     background-repeat: no-repeat;
     background-size: 1600px;
     background-position: center;
