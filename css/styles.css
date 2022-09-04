@@ -107,10 +107,12 @@ body {
 .icon-box {
     display: flex;
     justify-content: center;
+    padding: 16px;
 }
 
 .icon {
-    border: 2px solid red;
+    border: 2px dotted black;
+    fill: currentColor;
 }
 /* ===== END HEADER ===== */
 
