@@ -87,6 +87,8 @@ body {
 }
 
 .header-contact {
+  display: inline-flex;
+  align-items: center;
   color: var(--bright-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -108,8 +110,8 @@ body {
 .icon {
   display: inline-flex;
   align-items: center;
-  /* border: 2px dotted black; */
   fill: currentColor;
+  margin-right: 10px;
 }
 /* ===== END HEADER ===== */
 
