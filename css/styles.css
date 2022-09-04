@@ -107,12 +107,13 @@ body {
   fill: var(--blue-text-color);
 }
 
-.icon {
+.header-icon {
   display: inline-flex;
   align-items: center;
   fill: currentColor;
   margin-right: 10px;
 }
+
 /* ===== END HEADER ===== */
 
 /* ===== MAIN - STUDIO ===== */
@@ -164,6 +165,16 @@ body {
   letter-spacing: 0.06em;
   border: none;
   margin-top: 30px;
+}
+
+.article-icon-block {
+  display: flex;
+  justify-content: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .article-title {
