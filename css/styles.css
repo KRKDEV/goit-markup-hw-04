@@ -104,6 +104,14 @@ body {
     color: var(--blue-text-color);
 }
 
+.icon-box {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    border: 2px solid red;
+}
 /* ===== END HEADER ===== */
 
 /* ===== MAIN - STUDIO ===== */
