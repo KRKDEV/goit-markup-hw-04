@@ -12,6 +12,7 @@
   --footer-background-color: #2f303a;
   --button-primary-color: #2196f3;
   --button-secondary-color: #f5f4fa;
+  --social-icons-color: #afb1b8;
 }
 
 body {
@@ -264,7 +265,27 @@ body {
   line-height: 1, 1875;
   letter-spacing: 0.03em;
   color: var(--bright-text-color);
+  margin-bottom: 16px;
+}
+
+.social-icons-block {
+  display: flex;
+  width: 206px;
+  margin: auto;
+  justify-content: space-between;
   margin-bottom: 30px;
+}
+
+.social-icon {
+  border: none;
+  border-radius: 50%;
+  fill: var(--social-icons-color);
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  fill: #ffffff;
+  background-color: var(--blue-text-color);
 }
 /* ===== END MAIN - STUDIO ===== */
 
