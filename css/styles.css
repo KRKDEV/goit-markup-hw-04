@@ -309,8 +309,12 @@ body {
   align-items: center;
   cursor: pointer;
 }
-.clients-menu li:hover,
-.clients-menu li:focus {
+
+.client-icon {
+  fill: var(--icons-primary-color);
+}
+
+.clients-menu li:hover {
   border: 1px solid var(--blue-text-color);
 }
 
@@ -318,8 +322,8 @@ body {
   fill: var(--blue-text-color);
 }
 
-.client-icon {
-  fill: var(--icons-primary-color);
+.clients-menu a:focus .client-icon {
+  fill: var(--blue-text-color);
 }
 
 /* ===== END MAIN - STUDIO ===== */
