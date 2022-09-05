@@ -291,7 +291,6 @@ body {
 .clients-section {
   padding-top: 94px;
   padding-bottom: 94px;
-  border: 2px solid red;
 }
 .clients-menu {
   display: flex;
@@ -308,18 +307,19 @@ body {
   border-radius: 4px;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+.clients-menu li:hover,
+.clients-menu li:focus {
+  border: 1px solid var(--blue-text-color);
 }
 
-.clients-menu li:hover {
-  border: 1px solid var(--blue-text-color);
+.clients-menu li:hover .client-icon {
+  fill: var(--blue-text-color);
 }
 
 .client-icon {
   fill: var(--icons-primary-color);
-}
-
-.client-icon:hover {
-  fill: var(--blue-text-color);
 }
 
 /* ===== END MAIN - STUDIO ===== */
@@ -409,6 +409,7 @@ body {
 
 .footer {
   background: var(--footer-background-color);
+  color: #ffffff;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -445,4 +446,39 @@ body {
   list-style: none;
   padding: 0;
 }
+
+.footer .container {
+  display: flex;
+  gap: 70px;
+}
+
+.footer-block-2 p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 12px;
+}
+
+.footer-social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+.footer-social-icon {
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
+  cursor: pointer;
+}
+
+.footer-social-icon:hover,
+.footer-social-icon:focus {
+  background-color: var(--blue-text-color);
+}
+
 /* ===== END FOOTER ===== */
