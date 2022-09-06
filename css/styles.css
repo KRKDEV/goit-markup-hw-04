@@ -276,6 +276,14 @@ body {
   margin-bottom: 30px;
 }
 
+.social-icons-block a {
+  display: flex;
+  border: none;
+  border-radius: 50%;
+  fill: var(--icons-primary-color);
+  cursor: pointer;
+}
+
 .social-icon {
   border: none;
   border-radius: 50%;
@@ -283,9 +291,10 @@ body {
   cursor: pointer;
 }
 
-.social-icon:hover {
-  fill: #ffffff;
+.social-icons-block a:hover .social-icon,
+.social-icons-block a:focus .social-icon {
   background-color: var(--blue-text-color);
+  fill: #ffffff;
 }
 
 .clients-section {
@@ -299,7 +308,7 @@ body {
   justify-content: space-between;
 }
 
-.clients-menu li {
+.clients-menu a {
   display: flex;
   width: 170px;
   height: 92px;
@@ -314,18 +323,18 @@ body {
   fill: var(--icons-primary-color);
 }
 
-.clients-menu li:hover {
-  border: 1px solid var(--blue-text-color);
+.clients-menu a:hover {
+  border-color: var(--blue-text-color);
 }
 
-.clients-menu li:hover .client-icon {
-  fill: var(--blue-text-color);
-}
-
+.clients-menu li:hover .client-icon,
 .clients-menu a:focus .client-icon {
   fill: var(--blue-text-color);
 }
 
+.clients-section a:focus {
+  border: 1px solid var(--blue-text-color);
+}
 /* ===== END MAIN - STUDIO ===== */
 
 /* ===== MAIN - PORTFOLIO ===== */
@@ -472,16 +481,17 @@ body {
   display: flex;
   gap: 10px;
 }
-.footer-social-icon {
+
+.footer-social-links a {
+  display: flex;
   border: none;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   fill: #ffffff;
-  cursor: pointer;
 }
 
-.footer-social-icon:hover,
-.footer-social-icon:focus {
+.footer-social-links a:hover,
+.footer-social-links a:focus {
   background-color: var(--blue-text-color);
 }
 
