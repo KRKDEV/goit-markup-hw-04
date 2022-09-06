@@ -13,6 +13,7 @@
   --button-primary-color: #2196f3;
   --button-secondary-color: #f5f4fa;
   --icons-primary-color: #afb1b8;
+  --icons-secondary-color: #ffffff;
 }
 
 body {
@@ -284,17 +285,17 @@ body {
   cursor: pointer;
 }
 
-.social-icon {
+/* .social-icon {
   border: none;
   border-radius: 50%;
   fill: var(--icons-primary-color);
   cursor: pointer;
-}
+} */
 
-.social-icons-block a:hover .social-icon,
-.social-icons-block a:focus .social-icon {
+.social-icons-block a:hover,
+.social-icons-block a:focus {
   background-color: var(--blue-text-color);
-  fill: #ffffff;
+  fill: var(--icons-secondary-color);
 }
 
 .clients-section {
@@ -487,7 +488,7 @@ body {
   border: none;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  fill: #ffffff;
+  fill: var(--icons-secondary-color);
 }
 
 .footer-social-links a:hover,
